@@ -4,18 +4,13 @@ INSERT INTO jobs (j_id, j_title) VALUES (22, 'CLEANER');
 INSERT INTO jobs (j_id, j_title) VALUES (23, 'CASHIER');
 
 
-INSERT INTO customers (c_id, c_name, c_address, c_phone, c_occupation) VALUES (101, 'Tanzirul Haque', 'Basundhara, Dhaka', 01788284381, 'STU');
-INSERT INTO customers (c_id, c_name, c_address, c_phone, c_occupation) VALUES (102, 'Sabbir Hosssain', 'Mohakhali, Dhaka', 01788284381, 'STU');
-INSERT INTO customers (c_id, c_name, c_address, c_phone, c_occupation) VALUES (103, 'Sakib Hosssain', 'Baridhara, Dhaka', 01521301871, 'STU');
-INSERT INTO customers (c_id, c_name, c_address, c_phone, c_occupation) VALUES (104, 'Al Amin', 'Notun Bazar, Dhaka', 01521318596, 'STU');
-INSERT INTO customers (c_id, c_name, c_address, c_phone, c_occupation) VALUES (105, 'Muktadir Udoy', 'Basundhara, Dhaka', 01773709191, 'DOC');
-INSERT INTO customers (c_id, c_name, c_address, c_phone, c_occupation) VALUES (106, 'Jason James', 'Basundhara, Dhaka', 01554369526, 'ENG');
+INSERT INTO customers (c_id, c_name, c_address, c_phone, c_occupation) VALUES (101, 'Pavan Balusu', 'Bhargav Naidu',  0123456789, 'STU');
+INSERT INTO customers (c_id, c_name, c_address, c_phone, c_occupation) VALUES (102, 'Karan', 'Karra', 0123456789, 'STU');
 
-
-INSERT INTO employees (e_id, e_name, e_phone, e_address, e_salary, j_id) VALUES (1, 'Abdal Mumit', 01788523695, 'Nikunjo, Dhaka', 15000, 20);
-INSERT INTO employees (e_id, e_name, e_phone, e_address, e_salary, j_id) VALUES (2, 'Ar Rafi', 01756295398, 'Nikunjo, Dhaka', 19000, 21);
-INSERT INTO employees (e_id, e_name, e_phone, e_address, e_salary, j_id) VALUES (3, 'Fokhrul Hridoy', 01653269852, 'Uttara, Dhaka', 9000, 22);
-INSERT INTO employees (e_id, e_name, e_phone, e_address, e_salary, j_id) VALUES (4, 'Obida Alauddin', 01856296541, 'Nikunjo, Dhaka', 21000, 23);
+INSERT INTO employees (e_id, e_name, e_phone, e_address, e_salary, j_id) VALUES (1, 'Pavan',  0123456789, 'Nikunjo, Dhaka', 15000, 20);
+INSERT INTO employees (e_id, e_name, e_phone, e_address, e_salary, j_id) VALUES (2, 'Balusu',  0123456789, 'Nikunjo, Dhaka', 19000, 21);
+INSERT INTO employees (e_id, e_name, e_phone, e_address, e_salary, j_id) VALUES (3, 'Bobby',  0123456789, 'Uttara, Dhaka', 9000, 22);
+INSERT INTO employees (e_id, e_name, e_phone, e_address, e_salary, j_id) VALUES (4, 'Karan',  0123456789, 'Nikunjo, Dhaka', 21000, 23);
 
 
 INSERT INTO foods (f_id, f_name, f_price, e_id) VALUES (1, 'BURGER', 450, 2);
